@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>CSS3 - PSEUDOCLASSES - Front End Developer Track 2.0</title>
+    <link rel="stylesheet" href="css/default.css" />
+    <style>
+        .grand-child:first-of-type {
+            border-color: white;
+        }
+        
+        .grand-child:hover {
+            background-color: pink;
+        }
+        
+        .grand-child:nth-of-type(2n) {
+            border-style: dashed;
+        }
+        
+        .child:last-of-type {
+            border-radius: 10%;
+        }
+    </style>
+</head>
+
+<body class="pseudoclasses custom">
+    <div class="parent">
+        <div class="child">
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+        </div>
+        <div class="child">
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+        </div>
+        <div class="child">
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+            <div class="grand-child"></div>
+        </div>
+    </div>
+</body>
+
+</html>

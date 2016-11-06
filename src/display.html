@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>CSS3 - DISPLAY - Front End Developer Track 2.0</title>
+    <link rel="stylesheet" href="css/default.css" />
+    <style>
+        .container {
+            box-sizing: border-box;
+            width: 90%;
+        }
+        
+        .child {
+            background-color: lightgreen;
+            height: 100px;
+            width: 20%;
+        }
+        
+        .child.block {
+            display: block;
+        }
+        
+        .child.inline-block {
+            display: inline-block;
+        }
+        
+        .child.inline {
+            display: inline;
+        }
+    </style>
+</head>
+
+<body class="custom">
+    <div class="container">
+        <div class="child block"></div>
+        <div class="child block"></div>
+        <div class="child block"></div>
+        <div class="child block"></div>
+        <div class="child block"></div>
+        <div class="child block"></div>
+    </div>
+    <div class="container">
+        <div class="child inline-block"></div>
+        <div class="child inline-block"></div>
+        <div class="child inline-block"></div>
+        <div class="child inline-block"></div>
+        <div class="child inline-block"></div>
+        <div class="child inline-block"></div>
+    </div>
+    <div class="container">
+        <div class="child inline"></div>
+        <div class="child inline"></div>
+        <div class="child inline"></div>
+        <div class="child inline"></div>
+        <div class="child inline"></div>
+        <div class="child inline"></div>
+    </div>
+
+</body>
+
+</html>

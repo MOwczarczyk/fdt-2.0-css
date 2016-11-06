@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+}
+
+.playground {
+    width: 60vw;
+    height: 100vh;
+    float: left;
+    display: inline-block;
+    background-color: lightgoldenrodyellow;
+}
+
+.input-box {
+    float: left;
+    display: inline-block;
+    background-color: darkslategrey;
+    width: 35vw;
+    height: 100vh;
+    color: white;
+    padding: 20px;
+    white-space: pre;
+}
+
+.info {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: lightblue;
+    padding: 20px;
+}

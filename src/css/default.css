@@ -1,0 +1,83 @@
+body {
+    font-family: Helvetica, Arial;
+}
+
+body.custom div {
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-radius: 1%;
+    padding: 2em;
+    margin: 1em;
+    background-color: #00B0F0;
+    font-size: 18px;
+}
+
+.pseudoclasses .child {
+    background-color: lightgreen;
+}
+
+.pseudoclasses .grand-child {
+    background-color: orangered;
+}
+
+.positioning .parent {
+    width: 600px;
+    height: 300px;
+    padding: 0;
+}
+
+.positioning .child {
+    margin: 5px;
+    padding: 15px;
+    background: lightgreen;
+    width: 40%;
+    height: 40%;
+    display: inline-flex;
+}
+
+.glass {
+    opacity: 0.5;
+}
+
+.move-right {
+    left: 50px;
+}
+
+.move-down {
+    top: 30px;
+}
+
+.right-corner {
+    right: 20px;
+    bottom: 20px;
+}
+
+
+/* Layout related */
+
+body.layout {
+    margin: 0;
+}
+
+.container.layout {
+    border: 0px;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+header,
+footer,
+aside,
+section,
+figure {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    padding: 20px;
+    margin: 0;
+    
+}

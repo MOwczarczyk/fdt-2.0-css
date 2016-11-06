@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>CSS3 - SELECTORS INHERITANCE - Front End Developer Track 2.0</title>
+    <link rel="stylesheet" href="css/default.css" />
+    <style>
+        /* Domyślny kolor dla wszystkich */
+        
+        div {
+            color: black;
+        }
+        /* Właściwe dziedziczenie */
+        
+        .john .child {
+            border-color: blue;
+        }
+        
+        .john>.child {
+            color: yellow;
+        }
+        
+        .jim .child {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body class="custom">
+    <div class="john">
+        john
+        <div class="jim child">
+            jim
+            <div class="ted child">ted</div>
+            <div class="barney child">barney</div>
+        </div>
+        <div class="amy child">
+            amy
+            <div class="lily child">lily</div>
+            <div class="robin child">robin</div>
+        </div>
+    </div>
+</body>
+
+</html>

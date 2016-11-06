@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>CSS3 - POSITION - Front End Developer Track 2.0</title>
+    <link rel="stylesheet" href="css/default.css" />
+    <style>
+        .parent {
+            position: relative;
+        }
+        
+        .static {
+            position: static;
+        }
+        
+        .relative {
+            position: relative;
+        }
+        
+        .fixed {
+            position: fixed;
+        }
+        
+        .absolute {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body class="positioning custom">
+    <div class="parent">
+        <div class="child static move-right">static<br />left: 50px</div>
+        <div class="child static move-right">static<br />left: 50px</div>
+    </div>
+    <div class="parent">
+        <div class="child relative move-right">relative<br />left: 50px</div>
+        <div class="child relative">relative</div>
+    </div>
+    <div class="parent">
+        <div class="child absolute right-corner">absolute<br />right: 20px;<br />bottom: 20px;</div>
+        <div class="child absolute move-right move-down">absolute<br />left: 50px<br />top: 30px</div>
+        <div class="child relative glass">relative</div>
+    </div>
+    <div class="parent">
+        <div class="child fixed right-corner">fixed<br />right: 20px;<br />bottom: 20px;</div>
+    </div>
+</body>
+
+</html>
